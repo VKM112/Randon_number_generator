@@ -19,5 +19,4 @@ my_btn.onclick= function(){
 
     const random_num=Math.floor(Math.random()*(end-start+1))+start;
     my_output.textContent=random_num;
-
 }

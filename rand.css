@@ -8,6 +8,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: linear-gradient(135deg, #fdfbfb, #ebedee);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px;
@@ -51,7 +52,7 @@ input:focus {
     box-shadow: 0 0 5px rgba(41, 128, 185, 0.5);
 }
 
-button {
+#btn {
     padding: 12px;
     width: 100%;
     font-size: 1.1rem;
@@ -64,7 +65,25 @@ button {
     margin-top: 10px;
 }
 
-button:hover {
+#btn:hover {
+    background-color: #1abc9c;
+    transform: scale(1.03);
+}
+
+#btn-2 {
+    padding: 12px;
+    width: 100%;
+    font-size: 1.1rem;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-top: 10px;
+}
+
+#btn-2:hover {
     background-color: #1abc9c;
     transform: scale(1.03);
 }
@@ -87,7 +106,7 @@ button:hover {
     }
 
     input,
-    button {
+    #btn-1 {
         font-size: 1rem;
         padding: 10px;
     }
